@@ -2,3 +2,4 @@ mlflow
 dvc
 scikit-learn
 pandas
+prefect
