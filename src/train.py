@@ -7,6 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 import pickle
 
+mlflow.set_tracking_uri("http://127.0.0.1:5000")
 os.makedirs("models", exist_ok=True)
 
 # load data
