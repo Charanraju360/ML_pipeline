@@ -3,3 +3,5 @@ dvc
 scikit-learn
 pandas
 prefect
+uvicorn
+fastapi
