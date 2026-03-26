@@ -5,13 +5,13 @@ import subprocess
 @task
 def run_preprocess():
     print("Running preprocess...")
-    subprocess.run([r"D:\MLpipeline\ML_pipeline\.venv\Scripts\python.exe", "src/preprocess.py"], check=True)
+    subprocess.run([r"C:\Users\Charan\endtoend\.venv\Scripts\python.exe", "src/preprocess.py"], check=True)
 
 # Step 2: run training
 @task
 def run_train():
     print("Running training...")
-    subprocess.run([r"D:\MLpipeline\ML_pipeline\.venv\Scripts\python.exe", "src/preprocess.py"], check=True)
+    subprocess.run([r"C:\Users\Charan\endtoend\.venv\Scripts\python.exe", "src/train.py"], check=True)
 
 # Main flow
 @flow
